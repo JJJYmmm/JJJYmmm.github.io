@@ -19,9 +19,9 @@ function setUserName() {
         setUserName();
     } else {
         localStorage.setItem('name', myName);
-        if(myName=='黄杰')
+        if(myName=="黄杰")
             myHeading.innerHTML = myName + '是猪！';
-        else if(myName=='林以萌')
+        else if(myName=="林以萌")
             myHeading.innerHTML = '我爱你！--黄杰';
         else
             myHeading.innerHTML = 'Mozilla 酷毙了，' + myName;
