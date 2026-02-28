@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a second-year master's student at the [Institute of Computing Technology (ICT)](http://www.ict.ac.cn/), Chinese Academy of Sciences, advised by Prof. Hong Chang and Dr. Ruibing Hou. My research focuses on **Computer Vision** and **Vision-Language Models**. I'm also loving opensource community, such as transformers, vllm, llama.cpp, mlx, sglang etc.
+Currently, I am a second-year master's student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences, advised by Prof. Hong Chang and Dr. Ruibing Hou. My research focuses on **Computer Vision** and **Vision-Language Models**. I'm also passionate about the open-source community and actively contribute to projects such as Transformers, vLLM, llama.cpp, MLX, and SGLang.
 
 ## Open Source
 
@@ -30,9 +30,9 @@ Here are some open-source contributions I'm proud of. I'm grateful to everyone i
 
 ## News
 
-* **[Jan. 2026]** Our paper **"Revisiting Multimodal Positional Encoding in Vision-Language Models"** has been accepted by ICLR 2026. [[Paper]](https://arxiv.org/abs/2510.23095)
+* **[Jan. 2026]** Our paper **"Revisiting Multimodal Positional Encoding in Vision-Language Models"** has been accepted by ICLR 2026. [[Paper]](https://arxiv.org/abs/2510.23095) [[GitHub]](https://github.com/JJJYmmm/Multimodal-RoPEs)
 * **[Nov. 2025]** Our **Qwen3-VL** technical report has been released. [[Paper]](https://arxiv.org/abs/2511.21631) [[GitHub]](https://github.com/QwenLM/Qwen3-VL)
-* **[May. 2025]** Our paper **RefHCM** has been released and accepted by **IEEE TMM**. [[Paper]](https://arxiv.org/abs/2412.14643) [[Code]](https://github.com/JJJYmmm/RefHCM)
+* **[May. 2025]** Our paper **RefHCM** has been released and accepted by TMM. [[Paper]](https://arxiv.org/abs/2412.14643) [[Code]](https://github.com/JJJYmmm/RefHCM)
 
 ## Publications
 
@@ -42,7 +42,7 @@ Here are some open-source contributions I'm proud of. I'm grateful to everyone i
 <li>
 <strong>Revisiting Multimodal Positional Encoding in Vision-Language Models</strong><br>
 <strong>Jie Huang*</strong>, Xuejing Liu*, Shijie Song, Ruibing Hou, Hong Chang, Jinlin Lin, Shuai Bai<br>
-<em>arXiv preprint, 2025.</em><br>
+<em>ICLR, 2026.</em><br>
 <a href="https://arxiv.org/abs/2510.23095">[Paper]</a> <a href="https://github.com/JJJYmmm/Multimodal-RoPEs">[GitHub]</a>
 </li>
 
