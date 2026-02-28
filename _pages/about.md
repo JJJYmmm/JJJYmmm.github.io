@@ -42,7 +42,7 @@ Here are some open-source contributions I'm proud of. I'm grateful to everyone i
 <li>
 <strong>Revisiting Multimodal Positional Encoding in Vision-Language Models</strong><br>
 <strong>Jie Huang*</strong>, Xuejing Liu*, Shijie Song, Ruibing Hou, Hong Chang, Jinlin Lin, Shuai Bai<br>
-<em>ICLR, 2026.</em><br>
+<em>International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.</em><br>
 <a href="https://arxiv.org/abs/2510.23095">[Paper]</a> <a href="https://github.com/JJJYmmm/Multimodal-RoPEs">[GitHub]</a>
 </li>
 
