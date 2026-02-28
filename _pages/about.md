@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a second-year master's student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences, advised by Prof. Hong Chang and Dr. Ruibing Hou. My research focuses on **Computer Vision** and **Vision-Language Models**. I'm also passionate about the open-source community and actively contribute to projects such as Transformers, vLLM, llama.cpp, MLX, and SGLang.
+Currently, I am a second-year master's student at the Institute of Computing Technology (ICT), Chinese Academy of Sciences, advised by Prof. Hong Chang and Dr. Ruibing Hou. Prior to this, I earned my B.Eng. from Huazhong University of Science and Technology. My research focuses on **Computer Vision** and **Vision-Language Models**. I'm also passionate about the open-source community.
 
 ## Open Source
 
