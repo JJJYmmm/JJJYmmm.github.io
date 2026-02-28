@@ -41,7 +41,7 @@ Here are some open-source contributions I'm proud of. I'm grateful to everyone i
 <ol>
 <li>
 <strong>Revisiting Multimodal Positional Encoding in Vision-Language Models</strong><br>
-<strong>Jie Huang*</strong>, Xuejing Liu*, Shijie Song, Ruibing Hou, Hong Chang, Jinlin Lin, Shuai Bai<br>
+<strong>Jie Huang*</strong>, Xuejing Liu*, Sibo Song, Ruibing Hou, Hong Chang, Junyang Lin, Shuai Bai<br>
 <em>International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.</em><br>
 <a href="https://arxiv.org/abs/2510.23095">[Paper]</a> <a href="https://github.com/JJJYmmm/Multimodal-RoPEs">[GitHub]</a>
 </li>
@@ -70,7 +70,7 @@ Here are some open-source contributions I'm proud of. I'm grateful to everyone i
 <ol>
 <li>
 <strong>Stealthy and Effective Physical Adversarial Attacks in Autonomous Driving</strong><br>
-Mingfu Zhou, Wei Zhou, <strong>Jie Huang</strong>, Jianyuan Yang, Mingxing Du, Qiang Li<br>
+Man Zhou, Wenyu Zhou, <strong>Jie Huang</strong>, Junhui Yang, Minxin Du, Qi Li<br>
 <em>IEEE Transactions on Information Forensics and Security <strong>(TIFS)</strong>, 2024.</em><br>
 <a href="https://ieeexplore.ieee.org/document/10583962">[Paper]</a>
 </li>
