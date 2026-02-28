@@ -2,7 +2,6 @@
   "basics": {
     "name": "Jie Huang",
     "email": "1650675829@qq.com",
-    "phone": "",
     "website": "https://jjjymmm.github.io",
     "summary": "Master student at the Institute of Computing Technology, Chinese Academy of Sciences. Research focuses on Computer Vision and Vision-Language Models.",
     "location": {
@@ -32,7 +31,7 @@
       "website": "https://github.com/QwenLM/Qwen3-VL",
       "startDate": "2025.4",
       "endDate": "2025.9",
-      "summary": "Contributed to the development of Qwen3-VL, participating in multimodal positional encoding research and model training.",
+      "summary": "Core contributor of Qwen3-VL. Participating in multimodal positional encoding research, inference infrastructure, and model release.",
       "highlights": []
     }
   ],
@@ -41,7 +40,7 @@
       "institution": "Institute of Computing Technology, Chinese Academy of Sciences",
       "area": "Computer Science",
       "studyType": "Master Student",
-      "startDate": "2024",
+      "startDate": "2024.9",
       "endDate": "Present",
       "gpa": null,
       "courses": []
@@ -50,8 +49,8 @@
       "institution": "Huazhong University of Science and Technology",
       "area": "Cyber Science and Engineering",
       "studyType": "Bachelor Student",
-      "startDate": "2020",
-      "endDate": "2024",
+      "startDate": "2020.9",
+      "endDate": "2024.6",
       "gpa": null,
       "courses": []
     }
@@ -64,28 +63,28 @@
     {
       "name": "Qwen3-VL Technical Report",
       "publisher": "arXiv preprint",
-      "releaseDate": "2025-11-27",
+      "releaseDate": "2025",
       "website": "https://arxiv.org/abs/2511.21631",
       "summary": "The most capable vision-language model in the Qwen series."
     },
     {
       "name": "Revisiting Multimodal Positional Encoding in Vision-Language Models",
       "publisher": "arXiv preprint",
-      "releaseDate": "2025-10-27",
+      "releaseDate": "2026",
       "website": "https://arxiv.org/abs/2510.23095",
       "summary": "Comprehensive analysis of multimodal RoPE in VLMs. Accepted by ICLR 2026."
     },
     {
       "name": "RefHCM: A Unified Model for Referring Perceptions in Human-Centric Scenarios",
       "publisher": "IEEE Transactions on Multimedia (TMM)",
-      "releaseDate": "2024-12-19",
+      "releaseDate": "2025",
       "website": "https://arxiv.org/abs/2412.14643",
       "summary": "A unified framework for human-centric referring perception tasks. Accepted by TMM 2025."
     },
     {
       "name": "Stealthy and Effective Physical Adversarial Attacks in Autonomous Driving",
       "publisher": "IEEE Transactions on Information Forensics and Security (TIFS)",
-      "releaseDate": "2024-06-01",
+      "releaseDate": "2024",
       "website": "https://ieeexplore.ieee.org/document/10583962",
       "summary": "Physical adversarial attack methods targeting perception systems in autonomous driving. Accepted by TIFS 2024."
     }
