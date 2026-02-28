@@ -13,10 +13,10 @@ Currently, I am a second-year master's student at the Institute of Computing Tec
 
 Here are some open-source contributions I'm proud of. I'm grateful to everyone involved in these projects, collaborating with this community has been an incredible experience. 🫡
 
-* <a href="https://github.com/huggingface/transformers">transformers</a>: Added support for <a href="https://github.com/huggingface/transformers/pull/40795">Qwen3-VL</a>, <a href="https://github.com/huggingface/transformers/pull/43830">Qwen3.5</a>.
-* <a href="https://github.com/vllm-project/vllm">vllm</a>: Added support for <a href="https://github.com/vllm-project/vllm/pull/24727">Qwen3-VL</a>, <a href="https://github.com/vllm-project/vllm/pull/34110">Qwen3.5</a>.
+* <a href="https://github.com/huggingface/transformers">Transformers</a>: Added support for <a href="https://github.com/huggingface/transformers/pull/40795">Qwen3-VL</a>, <a href="https://github.com/huggingface/transformers/pull/43830">Qwen3.5</a>.
+* <a href="https://github.com/vllm-project/vllm">vLLM</a>: Added support for <a href="https://github.com/vllm-project/vllm/pull/24727">Qwen3-VL</a>, <a href="https://github.com/vllm-project/vllm/pull/34110">Qwen3.5</a>.
 * <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a>: Added support for <a href="https://github.com/ggml-org/llama.cpp/pull/16780">Qwen3-VL</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/19468">Qwen3.5</a>.
-* mlx community(<a href="https://github.com/ml-explore/mlx-lm">mlx-lm</a>,<a href="https://github.com/Blaizzy/mlx-vlm">mlx-vlm</a>): Contributed enhancements such as <a href="https://github.com/Blaizzy/mlx-vlm/pull/722">mlx-vlm #722</a> and <a href="https://github.com/ml-explore/mlx-lm/pull/869">mlx-lm #869</a>.
+* <a href="https://github.com/ml-explore/mlx-lm">MLX community</a>: Contributed enhancements such as <a href="https://github.com/Blaizzy/mlx-vlm/pull/722">mlx-vlm #722</a> and <a href="https://github.com/ml-explore/mlx-lm/pull/869">mlx-lm #869</a>.
 
 ## Education
 
