@@ -9,14 +9,11 @@ redirect_from:
 
 Currently, I am a second-year master's student at the Institute of Computing Technology, Chinese Academy of Sciences, advised by Prof. Hong Chang and Dr. Ruibing Hou. Prior to this, I earned my B.Eng. from Huazhong University of Science and Technology. My research focuses on **Computer Vision** and **Vision-Language Models**. I'm also passionate about the open-source community.
 
-## Open Source
+## News
 
-Here are some open-source contributions I'm proud of. I'm grateful to everyone involved in these projects, collaborating with this community has been an incredible experience. 🫡
-
-* <a href="https://github.com/huggingface/transformers">Transformers</a>: Added support for <a href="https://github.com/huggingface/transformers/pull/40795">Qwen3-VL</a>, <a href="https://github.com/huggingface/transformers/pull/43830">Qwen3.5</a>.
-* <a href="https://github.com/vllm-project/vllm">vLLM</a>: Added support for <a href="https://github.com/vllm-project/vllm/pull/24727">Qwen3-VL</a>, <a href="https://github.com/vllm-project/vllm/pull/34110">Qwen3.5</a>.
-* <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a>: Added support for <a href="https://github.com/ggml-org/llama.cpp/pull/16780">Qwen3-VL</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/19468">Qwen3.5</a>.
-* <a href="https://github.com/ml-explore/mlx-lm">MLX community</a>: Contributed enhancements such as <a href="https://github.com/Blaizzy/mlx-vlm/pull/722">mlx-vlm #722</a> and <a href="https://github.com/ml-explore/mlx-lm/pull/869">mlx-lm #869</a>.
+* **[Jan. 2026]** Our paper **"Revisiting Multimodal Positional Encoding in Vision-Language Models"** has been accepted by ICLR 2026. [[Paper]](https://arxiv.org/abs/2510.23095) [[GitHub]](https://github.com/JJJYmmm/Multimodal-RoPEs)
+* **[Nov. 2025]** Our **Qwen3-VL** technical report has been released. [[Paper]](https://arxiv.org/abs/2511.21631) [[GitHub]](https://github.com/QwenLM/Qwen3-VL)
+* **[May. 2025]** Our paper **RefHCM** has been released and accepted by TMM. [[Paper]](https://arxiv.org/abs/2412.14643) [[Code]](https://github.com/JJJYmmm/RefHCM)
 
 ## Education
 
@@ -28,11 +25,14 @@ Here are some open-source contributions I'm proud of. I'm grateful to everyone i
 
 * **Qwen Team, Alibaba Cloud** (2025.4–2025.9) : Core contributor to the Qwen3-VL series, participating in multimodal positional encoding research, inference infrastructure, and model release.
 
-## News
+## Open Source
 
-* **[Jan. 2026]** Our paper **"Revisiting Multimodal Positional Encoding in Vision-Language Models"** has been accepted by ICLR 2026. [[Paper]](https://arxiv.org/abs/2510.23095) [[GitHub]](https://github.com/JJJYmmm/Multimodal-RoPEs)
-* **[Nov. 2025]** Our **Qwen3-VL** technical report has been released. [[Paper]](https://arxiv.org/abs/2511.21631) [[GitHub]](https://github.com/QwenLM/Qwen3-VL)
-* **[May. 2025]** Our paper **RefHCM** has been released and accepted by TMM. [[Paper]](https://arxiv.org/abs/2412.14643) [[Code]](https://github.com/JJJYmmm/RefHCM)
+Here are some open-source contributions I'm proud of. I'm grateful to everyone involved in these projects, collaborating with this community has been an incredible experience. 🫡
+
+* <a href="https://github.com/huggingface/transformers">Transformers</a>: Added support for <a href="https://github.com/huggingface/transformers/pull/40795">Qwen3-VL</a>, <a href="https://github.com/huggingface/transformers/pull/43830">Qwen3.5</a>.
+* <a href="https://github.com/vllm-project/vllm">vLLM</a>: Added support for <a href="https://github.com/vllm-project/vllm/pull/24727">Qwen3-VL</a>, <a href="https://github.com/vllm-project/vllm/pull/34110">Qwen3.5</a>.
+* <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a>: Added support for <a href="https://github.com/ggml-org/llama.cpp/pull/16780">Qwen3-VL</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/19468">Qwen3.5</a>.
+* <a href="https://github.com/ml-explore/mlx-lm">MLX community</a>: Contributed enhancements such as <a href="https://github.com/Blaizzy/mlx-vlm/pull/722">mlx-vlm #722</a> and <a href="https://github.com/ml-explore/mlx-lm/pull/869">mlx-lm #869</a>.
 
 ## Publications
 
