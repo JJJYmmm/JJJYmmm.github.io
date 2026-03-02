@@ -43,14 +43,14 @@ Here are some open-source contributions I'm proud of. I'm grateful to everyone i
 <strong>Revisiting Multimodal Positional Encoding in Vision-Language Models</strong><br>
 <strong>Jie Huang*</strong>, Xuejing Liu*, Sibo Song, Ruibing Hou, Hong Chang, Junyang Lin, Shuai Bai<br>
 <em>International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.</em><br>
-<a href="https://arxiv.org/abs/2510.23095">[Paper]</a> <a href="https://github.com/JJJYmmm/Multimodal-RoPEs">[GitHub]</a>
+<a href="https://arxiv.org/abs/2510.23095">[Paper]</a> <a href="https://github.com/JJJYmmm/Multimodal-RoPEs">[Code]</a>
 </li>
 
 <li>
 <strong>Qwen3-VL Technical Report</strong><br>
 <strong>Core Contributor</strong><br>
 <em>arXiv preprint, 2025.</em><br>
-<a href="https://arxiv.org/abs/2511.21631">[Paper]</a> <a href="https://github.com/QwenLM/Qwen3-VL">[GitHub]</a>
+<a href="https://arxiv.org/abs/2511.21631">[Paper]</a> <a href="https://github.com/QwenLM/Qwen3-VL">[Code]</a>
 </li>
 </ol>
 
