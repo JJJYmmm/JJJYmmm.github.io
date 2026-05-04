@@ -9,16 +9,20 @@
   <link rel="alternate icon" href="/images/favicon.ico">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon-180x180.png">
   <link rel="manifest" href="/images/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;650&display=swap" rel="stylesheet">
   <style>
     :root {
-      --paper: #fbfbf8;
-      --ink: #202124;
-      --muted: #686c70;
-      --line: #dedbd3;
-      --accent: #1f6f68;
-      --accent-warm: #9c4f2f;
-      --soft: #eef3f1;
-      --max: 820px;
+      --paper: #ffffff;
+      --ink: #202020;
+      --muted: #6d6d6d;
+      --faint: #9a9a9a;
+      --line: #e9e6df;
+      --accent: #315f7c;
+      --accent-warm: #9a5a3a;
+      --soft: #f7f8f8;
+      --max: 760px;
     }
 
     * {
@@ -28,9 +32,9 @@
     html {
       background: var(--paper);
       color: var(--ink);
-      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-      font-size: 17px;
-      line-height: 1.68;
+      font-family: "Inter", ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.72;
       letter-spacing: 0;
     }
 
@@ -43,7 +47,7 @@
       color: var(--accent);
       text-decoration: none;
       text-decoration-thickness: 1px;
-      text-underline-offset: 0.18em;
+      text-underline-offset: 0.2em;
     }
 
     a:hover,
@@ -55,7 +59,7 @@
     .page {
       width: min(var(--max), calc(100% - 40px));
       margin: 0 auto;
-      padding: 64px 0 56px;
+      padding: 56px 0 52px;
     }
 
     .topbar {
@@ -63,14 +67,15 @@
       align-items: baseline;
       justify-content: space-between;
       gap: 24px;
-      padding-bottom: 34px;
+      padding-bottom: 28px;
       border-bottom: 1px solid var(--line);
     }
 
     .mark {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 1rem;
-      color: var(--muted);
+      font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      font-size: 1.18rem;
+      font-weight: 600;
+      color: var(--ink);
       white-space: nowrap;
     }
 
@@ -78,16 +83,17 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-end;
-      gap: 14px 18px;
-      font-size: 0.92rem;
+      gap: 12px 18px;
+      font-size: 0.86rem;
+      color: var(--muted);
     }
 
     .hero {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 122px;
-      gap: 40px;
+      grid-template-columns: minmax(0, 1fr) 108px;
+      gap: 34px;
       align-items: start;
-      padding: 46px 0 20px;
+      padding: 42px 0 12px;
     }
 
     h1,
@@ -100,70 +106,65 @@
     }
 
     h1 {
-      margin-bottom: 10px;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 2.55rem;
-      line-height: 1.1;
-      font-weight: 500;
+      margin-bottom: 8px;
+      font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      font-size: 3rem;
+      line-height: 1;
+      font-weight: 600;
     }
 
     .subtitle {
-      margin-bottom: 22px;
+      margin-bottom: 20px;
       color: var(--muted);
-      font-size: 1rem;
-      line-height: 1.55;
+      font-size: 0.95rem;
+      line-height: 1.6;
     }
 
     .intro {
-      max-width: 650px;
-      font-size: 1.03rem;
+      max-width: 640px;
+      font-size: 1rem;
     }
 
     .portrait {
-      width: 122px;
+      width: 108px;
       aspect-ratio: 1;
       border-radius: 50%;
       object-fit: cover;
       border: 1px solid var(--line);
-      filter: saturate(0.9) contrast(1.02);
+      filter: grayscale(0.12) contrast(1.04);
     }
 
     .links {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 22px;
+      gap: 10px 16px;
+      margin-top: 20px;
     }
 
     .chip {
       display: inline-flex;
       align-items: center;
-      min-height: 34px;
-      padding: 4px 12px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.42);
-      color: var(--ink);
+      color: var(--accent);
       font-size: 0.9rem;
+      font-weight: 500;
     }
 
     .chip:hover,
     .chip:focus {
-      border-color: var(--accent);
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     section {
-      padding-top: 34px;
-      margin-top: 14px;
+      padding-top: 30px;
+      margin-top: 12px;
       border-top: 1px solid var(--line);
     }
 
     h2 {
-      margin-bottom: 16px;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 1.38rem;
-      font-weight: 500;
+      margin-bottom: 15px;
+      font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      font-size: 1.55rem;
+      font-weight: 600;
       line-height: 1.25;
     }
 
@@ -174,14 +175,15 @@
 
     .news li {
       display: grid;
-      grid-template-columns: 86px minmax(0, 1fr);
-      gap: 18px;
-      margin-bottom: 13px;
+      grid-template-columns: 82px minmax(0, 1fr);
+      gap: 16px;
+      margin-bottom: 11px;
     }
 
     .date {
       color: var(--accent-warm);
-      font-size: 0.88rem;
+      font-size: 0.84rem;
+      font-weight: 500;
       white-space: nowrap;
     }
 
@@ -201,7 +203,7 @@
 
     .item-meta {
       color: var(--muted);
-      font-size: 0.94rem;
+      font-size: 0.92rem;
       line-height: 1.48;
     }
 
@@ -213,8 +215,8 @@
 
     .publication {
       position: relative;
-      padding-left: 36px;
-      margin-bottom: 24px;
+      padding-left: 34px;
+      margin-bottom: 22px;
       counter-increment: pubs;
     }
 
@@ -223,14 +225,14 @@
       position: absolute;
       left: 0;
       top: 0.18em;
-      width: 22px;
-      height: 22px;
+      width: 21px;
+      height: 21px;
       display: grid;
       place-items: center;
       border-radius: 50%;
       background: var(--soft);
       color: var(--accent);
-      font-size: 0.78rem;
+      font-size: 0.74rem;
       font-weight: 650;
       line-height: 1;
     }
@@ -243,7 +245,7 @@
     .authors,
     .venue {
       color: var(--muted);
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       line-height: 1.5;
     }
 
@@ -257,11 +259,11 @@
       flex-wrap: wrap;
       gap: 8px 12px;
       margin-top: 5px;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
     }
 
     .open-source ul {
-      padding-left: 1.2rem;
+      padding-left: 1.05rem;
     }
 
     .open-source li {
@@ -269,21 +271,21 @@
     }
 
     footer {
-      margin-top: 44px;
-      padding-top: 20px;
+      margin-top: 38px;
+      padding-top: 18px;
       border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.88rem;
+      color: var(--faint);
+      font-size: 0.82rem;
     }
 
     @media (max-width: 700px) {
       html {
-        font-size: 16px;
+        font-size: 15.5px;
       }
 
       .page {
         width: min(100% - 28px, var(--max));
-        padding-top: 34px;
+        padding-top: 32px;
       }
 
       .topbar {
@@ -298,17 +300,17 @@
 
       .hero {
         grid-template-columns: 1fr;
-        gap: 24px;
-        padding-top: 34px;
+        gap: 20px;
+        padding-top: 32px;
       }
 
       .portrait {
         grid-row: 1;
-        width: 96px;
+        width: 92px;
       }
 
       h1 {
-        font-size: 2.15rem;
+        font-size: 2.55rem;
       }
 
       .split {
@@ -348,10 +350,10 @@
         </p>
         <p class="intro">
           I am a master's student working on computer vision and
-          <strong>vision-language models</strong>. My recent work studies multimodal
-          positional encoding, large VLM systems, and human-centric perception. I also
-          enjoy contributing model support and inference infrastructure to open-source
-          communities.
+          <strong>vision-language models</strong>. My recent work studies multimodal model
+          architectures and large VLM systems. I also enjoy contributing model support
+          and inference infrastructure, especially for Qwen3-VL and Qwen3.5, to
+          open-source communities.
         </p>
         <div class="links" aria-label="Profile links">
           <a class="chip" href="https://scholar.google.com/citations?user=5_JC_swAAAAJ">Google Scholar</a>
@@ -397,7 +399,7 @@
           <div class="item">
             <div class="item-title">Qwen Team, Alibaba Cloud</div>
             <div class="item-meta">Research intern · 2025.4 - 2025.9</div>
-            <div class="item-meta">Core contributor to Qwen3-VL, including multimodal positional encoding, inference infrastructure, and model release.</div>
+            <div class="item-meta">Core contributor to Qwen3-VL, including multimodal positional encoding, inference/training infrastructure, and the open-source adaptation.</div>
           </div>
         </div>
       </div>
@@ -436,7 +438,7 @@
     <section id="open-source" class="open-source">
       <h2>Open Source</h2>
       <ul>
-        <li><a href="https://github.com/huggingface/transformers">Transformers</a>: added support for <a href="https://github.com/huggingface/transformers/pull/40795">Qwen3-VL</a> and <a href="https://github.com/huggingface/transformers/pull/43830">Qwen3.5</a>.</li>
+        <li><a href="https://github.com/huggingface/transformers">Transformers</a>: added support for <a href="https://huggingface.co/docs/transformers/main/en/fusion_mapping">fusion mapping</a>, <a href="https://github.com/huggingface/transformers/pull/40795">Qwen3-VL</a>, and <a href="https://github.com/huggingface/transformers/pull/43830">Qwen3.5</a>.</li>
         <li><a href="https://github.com/vllm-project/vllm">vLLM</a>: added support for <a href="https://github.com/vllm-project/vllm/pull/24727">Qwen3-VL</a> and <a href="https://github.com/vllm-project/vllm/pull/34110">Qwen3.5</a>.</li>
         <li><a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a>: added support for <a href="https://github.com/ggml-org/llama.cpp/pull/16780">Qwen3-VL</a> and <a href="https://github.com/ggml-org/llama.cpp/pull/19468">Qwen3.5</a>.</li>
         <li><a href="https://github.com/ml-explore/mlx-lm">MLX community</a>: contributed to <a href="https://github.com/Blaizzy/mlx-vlm/pull/722">mlx-vlm #722</a> and <a href="https://github.com/ml-explore/mlx-lm/pull/869">mlx-lm #869</a>.</li>
