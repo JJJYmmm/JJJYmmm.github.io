@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jie Huang</title>
-  <meta name="description" content="Jie Huang's academic homepage. Research in computer vision and vision-language models.">
+  <meta name="description" content="Jie Huang, M.Eng. candidate at ICT, CAS and research intern at Alibaba's Qwen Team. Multimodal architectures, efficient inference, and agents. Core contributor to Qwen3-VL and Qwen3.5; maintainer of Qwen-MM-Plugins.">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="alternate icon" href="images/favicon.ico">
   <link rel="apple-touch-icon" href="images/apple-touch-icon-180x180.png">
@@ -254,6 +254,16 @@
       font-style: italic;
     }
 
+    .pub-summary {
+      margin-top: 5px;
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .item-meta + .item-meta {
+      margin-top: 8px;
+    }
+
     .pub-links {
       display: flex;
       flex-wrap: wrap;
@@ -335,6 +345,7 @@
       <div class="mark">JJJYmmm</div>
       <nav class="nav" aria-label="Primary navigation">
         <a href="#news">News</a>
+        <a href="#experience">Experience</a>
         <a href="#publications">Publications</a>
         <a href="#open-source">Open Source</a>
         <a href="https://github.com/JJJYmmm">GitHub</a>
@@ -349,11 +360,17 @@
           Beijing, China · 1650675829 [at] qq [dot] com
         </p>
         <p class="intro">
-          I am a master's student working on computer vision and
-          <strong>vision-language models</strong>. My recent work studies multimodal model
-          architectures and large VLM systems. I also enjoy contributing model support
-          and inference infrastructure, especially for Qwen3-VL and Qwen3.5, to
-          open-source communities.
+          I am an M.Eng. candidate at the Institute of Computing Technology, Chinese
+          Academy of Sciences. My research focuses on <strong>multimodal architectures,
+          efficient inference, and agents</strong>, from vision-language models to
+          multimodal agent systems and on-device robotics.
+        </p>
+        <p class="intro">
+          I am a research intern with the <strong>Qwen Team at Alibaba Cloud</strong>,
+          a core contributor to <a href="https://github.com/QwenLM/Qwen3-VL">Qwen3-VL</a>
+          and <a href="https://github.com/QwenLM/Qwen3.5">Qwen3.5</a>, and the maintainer of
+          <a href="https://github.com/QwenLM/Qwen-MM-Plugins">Qwen-MM-Plugins</a>.
+          I enjoy building open-source tools that bring multimodal models into practical use.
         </p>
         <div class="links" aria-label="Profile links">
           <a class="chip" href="https://scholar.google.com/citations?user=5_JC_swAAAAJ">Google Scholar</a>
@@ -367,6 +384,18 @@
     <section id="news">
       <h2>News</h2>
       <ul class="news">
+        <li>
+          <span class="date">Sep. 2026</span>
+          <span>The <strong>Qwen3.8-Omni</strong> technical report is out. I contributed to the work and maintain <strong>Qwen-MM-Plugins</strong>, its open-source framework for multimodal productivity. <a href="https://arxiv.org/abs/2609.25611">Report</a> · <a href="https://github.com/QwenLM/Qwen-MM-Plugins">GitHub</a></span>
+        </li>
+        <li>
+          <span class="date">Aug. 2026</span>
+          <span>We released <strong>Qwen-MM-Plugins</strong>, bringing native multimodal capabilities to coding agents through a portable Skill+MCP architecture. <a href="https://github.com/QwenLM/Qwen-MM-Plugins">GitHub</a></span>
+        </li>
+        <li>
+          <span class="date">Feb. 2026</span>
+          <span>We released <strong>Qwen3.5</strong>. I am a core contributor to its vision-language model architecture and inference. <a href="https://qwen.ai/blog?id=qwen3.5">Blog</a> · <a href="https://github.com/QwenLM/Qwen3.5">GitHub</a></span>
+        </li>
         <li>
           <span class="date">Jan. 2026</span>
           <span>Our paper <strong>Revisiting Multimodal Positional Encoding in Vision-Language Models</strong> has been accepted by ICLR 2026. <a href="https://arxiv.org/abs/2510.23095">Paper</a> · <a href="https://github.com/JJJYmmm/Multimodal-RoPEs">GitHub</a></span>
@@ -388,43 +417,63 @@
         <div>
           <div class="item">
             <div class="item-title">Institute of Computing Technology, CAS</div>
-            <div class="item-meta">Master's student · 2024.9 - 2027.6 expected</div>
+            <div class="item-meta">M.Eng. candidate · Sep. 2024 - Jun. 2027 (expected)</div>
+            <div class="item-meta">GPA: 3.89/4.0</div>
           </div>
           <div class="item">
             <div class="item-title">Huazhong University of Science and Technology</div>
-            <div class="item-meta">B.Eng. · 2020.9 - 2024.6</div>
+            <div class="item-meta">B.Eng. · Sep. 2020 - Jun. 2024</div>
+            <div class="item-meta">GPA: 3.94/4.0</div>
           </div>
         </div>
         <div>
           <div class="item">
             <div class="item-title">Qwen Team, Alibaba Cloud</div>
-            <div class="item-meta">Research intern · 2025.4 - 2025.9</div>
-            <div class="item-meta">Core contributor to Qwen3-VL, including multimodal positional encoding, inference/training infrastructure, and the open-source adaptation.</div>
+            <div class="item-meta">Research intern · Mar. 2025 - Present</div>
+            <div class="item-meta">Core contributor to Qwen3-VL and Qwen3.5, working on multimodal model architecture, training/inference implementation, and open-source release.</div>
+            <div class="item-meta">Architecture work includes MRoPE-Interleave, DeepStack, timestamp-aligned video modeling, and Vision MTP.</div>
+            <div class="item-meta">Supported day-zero model integration across Transformers, vLLM, SGLang, llama.cpp, and MLX.</div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="publications">
-      <h2>Publications</h2>
+      <h2>Selected Publications &amp; Technical Writing</h2>
       <ol class="publication-list">
+        <li class="publication">
+          <div class="pub-title">Qwen3-VL Technical Report</div>
+          <div class="authors"><strong>Core contributor</strong></div>
+          <div class="venue">arXiv preprint, 2025.</div>
+          <div class="pub-summary">Contributed to model architecture, training/inference implementation, and the open-source release.</div>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2511.21631">Paper</a><a href="https://github.com/QwenLM/Qwen3-VL">Code</a></div>
+        </li>
+        <li class="publication">
+          <div class="pub-title">Qwen3.5: Towards Native Multimodal Agents</div>
+          <div class="authors"><strong>Core contributor</strong></div>
+          <div class="venue">Technical blog, 2026.</div>
+          <div class="pub-summary">Contributed to vision-language model architecture and inference.</div>
+          <div class="pub-links"><a href="https://qwen.ai/blog?id=qwen3.5">Blog</a><a href="https://github.com/QwenLM/Qwen3.5">Code</a></div>
+        </li>
+        <li class="publication">
+          <div class="pub-title">Qwen3.8-Omni: Towards Native Omni-Modal Agents</div>
+          <div class="authors"><strong>Contributor</strong> · Maintainer of <a href="https://github.com/QwenLM/Qwen-MM-Plugins">Qwen-MM-Plugins</a></div>
+          <div class="venue">Technical report, 2026.</div>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2609.25611">Paper</a><a href="https://github.com/QwenLM/Qwen-MM-Plugins">Qwen-MM-Plugins</a></div>
+        </li>
         <li class="publication">
           <div class="pub-title">Revisiting Multimodal Positional Encoding in Vision-Language Models</div>
           <div class="authors"><strong>Jie Huang*</strong>, Xuejing Liu*, Sibo Song, Ruibing Hou, Hong Chang, Junyang Lin, Shuai Bai</div>
           <div class="venue">International Conference on Learning Representations (ICLR), 2026.</div>
+          <div class="pub-summary">Proposed MHRoPE and MRoPE-Interleave for spatial and long-video understanding. MRoPE-Interleave was adopted in Qwen3-VL and Qwen3.5.</div>
           <div class="pub-links"><a href="https://arxiv.org/abs/2510.23095">Paper</a><a href="https://github.com/JJJYmmm/Multimodal-RoPEs">Code</a></div>
-        </li>
-        <li class="publication">
-          <div class="pub-title">Qwen3-VL Technical Report</div>
-          <div class="authors"><strong>Core Contributor</strong></div>
-          <div class="venue">arXiv preprint, 2025.</div>
-          <div class="pub-links"><a href="https://arxiv.org/abs/2511.21631">Paper</a><a href="https://github.com/QwenLM/Qwen3-VL">Code</a></div>
         </li>
         <li class="publication">
           <div class="pub-title">RefHCM: A Unified Model for Referring Perceptions in Human-Centric Scenarios</div>
           <div class="authors"><strong>Jie Huang</strong>, Ruibing Hou, Jiahe Zhao, Hong Chang, Shiguang Shan</div>
           <div class="venue">IEEE Transactions on Multimedia (TMM), 2026.</div>
-          <div class="pub-links"><a href="https://arxiv.org/abs/2412.14643">Paper</a><a href="https://github.com/JJJYmmm/RefHCM">Code</a></div>
+          <div class="pub-summary">Developed a unified autoregressive model for human-centric referring perception.</div>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2412.14643">Paper</a><a href="https://github.com/VIPL-VISMOD/RefHCM">Code</a></div>
         </li>
         <li class="publication">
           <div class="pub-title">Stealthy and Effective Physical Adversarial Attacks in Autonomous Driving</div>
@@ -436,8 +485,10 @@
     </section>
 
     <section id="open-source" class="open-source">
-      <h2>Main Open Source Efforts</h2>
+      <h2>Open Source</h2>
       <ul>
+        <li><a href="https://github.com/QwenLM/Qwen-MM-Plugins">Qwen-MM-Plugins</a>: creator and maintainer. Built a portable Skill+MCP architecture that brings multimodal perception and action to Claude Code, Codex, Qoder, OpenClaw, and Qwen Code, including dynamic-resolution reading, long-video memory, media creation/editing, and Blender/CAD workflows.</li>
+        <li><a href="https://github.com/Robot-cpp/robot.cpp">Robot.cpp</a>: built a dependency-free C/C++ runtime for cross-platform, on-device VLA inference. Integrated SMARCO accelerator support; collaborated with <a href="https://github.com/Roboparty">RoboParty</a> on Sonic humanoid policy deployment and with <a href="https://github.com/starVLA/starVLA">StarVLA</a> to connect training and simulation to real-robot deployment.</li>
         <li><a href="https://github.com/huggingface/transformers">Transformers</a>: added support for <a href="https://huggingface.co/docs/transformers/main/en/fusion_mapping">fusion mapping</a>, <a href="https://github.com/huggingface/transformers/pull/45862">ZAYA1</a>, <a href="https://github.com/huggingface/transformers/pull/40795">Qwen3-VL</a>, and <a href="https://github.com/huggingface/transformers/pull/43830">Qwen3.5</a>.</li>
         <li><a href="https://github.com/vllm-project/vllm">vLLM</a>: added support for <a href="https://github.com/vllm-project/vllm/pull/24727">Qwen3-VL</a> and <a href="https://github.com/vllm-project/vllm/pull/34110">Qwen3.5</a>.</li>
         <li><a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a>: added support for <a href="https://github.com/ggml-org/llama.cpp/pull/16780">Qwen3-VL</a> and <a href="https://github.com/ggml-org/llama.cpp/pull/19468">Qwen3.5</a>.</li>
@@ -446,7 +497,7 @@
     </section>
 
     <footer>
-      Last updated May 2026. Built as a small static homepage.
+      Last updated October 2026. Built as a small static homepage.
     </footer>
   </main>
 </body>
